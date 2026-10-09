@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    margin-left: 20%;
+    
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
+}
+li{
+    text-align: left;
+}
+main{
+    width: 70%;
+    height:70%;
+    background-color: dimgray;
+    padding-bottom: 10px;
+
+    border-radius: 5%;
+}
