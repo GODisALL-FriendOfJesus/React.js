@@ -1,25 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
     color: white;
-    text-align: center;
 }
 
-ul {
-    margin-left: 20%;
-    
-    margin-top: 40px;
-    width: 50%;
-    height: 50%;
+header {
+    height: 90px;
+    background-color: #21222A;
+    padding: 30px 25px;
 }
-li{
-    text-align: left;
-}
-main{
-    width: 70%;
-    height:70%;
-    background-color: dimgray;
-    padding-bottom: 10px;
 
-    border-radius: 5%;
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav > img {
+    width: 40px;
+    margin-right: 7px;
+}
+
+nav > span {
+    color: #61DAFB;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image: url(...)
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
+
+main {
+    padding: 60px 30px;
+}
+
+main > h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.facts-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.facts-list > li {
+    padding-block: 10px;
+    line-height: 19px;
+}
+
+.facts-list > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
