@@ -10,19 +10,19 @@ export default function App() {
                 email="mr.whiskaz@catnap.meow"
             />
             <Contact
-                img="./images/fluffykins.png"
+                img="src/images/coffeecup.jfif"
                 name="Fluffykins"
                 phone="(212) 555-2345"
                 email="fluff@me.com"
             />
             <Contact
-                img="./images/felix.png"
+                img="src/images/coffeecup.jfif"
                 name="Felix"
                 phone="(212) 555-4567"
                 email="thecat@hotmail.com"
             />
             <Contact 
-                img="./images/pumpkin.png"
+                img="src/images/coffeecup.jfif"
                 name="Pumpkin"
                 phone="(0800) CAT KING"
                 email="pumpkin@scrimba.com"
